@@ -1,15 +1,14 @@
 package com.emerje.springconfiguration;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-@Component
 public class NavigationSystem {
 
-    @Autowired
-    private ItinaryProcessor itinaryProcessor;
+    private ItineraryProcessor itineraryProcessor;
+
+    public NavigationSystem(ItineraryProcessor itineraryProcessor){
+        this.itineraryProcessor = itineraryProcessor;
+    }
 
     public void getItinary(){
-        itinaryProcessor.processItinary();
+        itineraryProcessor.processItinerary();
     }
 }
