@@ -23,5 +23,8 @@ public class AppConfig {
     @Bean
     public NavigationSystem navigationSystem(){
         return new NavigationSystem(trainItineraryProcessor());
+/*        NavigationSystem navigationSystem = new NavigationSystem();
+        navigationSystem.setItineraryProcessor(trainItineraryProcessor());
+        return navigationSystem;*/
     }
 }
