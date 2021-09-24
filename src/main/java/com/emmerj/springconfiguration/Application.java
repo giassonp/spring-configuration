@@ -1,6 +1,6 @@
-package com.emmerje.springconfiguration;
+package com.emmerj.springconfiguration;
 
-import com.emmerje.springconfiguration.config.AppConfig;
+import com.emmerj.springconfiguration.config.AppConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

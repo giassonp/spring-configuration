@@ -1,4 +1,4 @@
-package com.emmerje.springconfiguration;
+package com.emmerj.springconfiguration;
 
 public interface ItineraryProcessor {
 

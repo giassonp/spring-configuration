@@ -1,4 +1,4 @@
-package com.emmerje.springconfiguration;
+package com.emmerj.springconfiguration;
 
 public class NavigationSystem {
 
