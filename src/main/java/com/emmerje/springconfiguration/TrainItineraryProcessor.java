@@ -1,4 +1,4 @@
-package com.emerje.springconfiguration;
+package com.emmerje.springconfiguration;
 
 public class TrainItineraryProcessor implements ItineraryProcessor {
 

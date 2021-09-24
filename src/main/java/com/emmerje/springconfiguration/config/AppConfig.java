@@ -1,9 +1,9 @@
-package com.emerje.springconfiguration.config;
+package com.emmerje.springconfiguration.config;
 
-import com.emerje.springconfiguration.BusItineraryProcessor;
-import com.emerje.springconfiguration.ItineraryProcessor;
-import com.emerje.springconfiguration.NavigationSystem;
-import com.emerje.springconfiguration.TrainItineraryProcessor;
+import com.emmerje.springconfiguration.BusItineraryProcessor;
+import com.emmerje.springconfiguration.ItineraryProcessor;
+import com.emmerje.springconfiguration.NavigationSystem;
+import com.emmerje.springconfiguration.TrainItineraryProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
